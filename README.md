@@ -5,7 +5,7 @@ comparing response time of servers written in golang and nodejs
 我用兩個最簡單的 web server 進行比較，他們的功能都只有回應字串，沒有 log 紀錄，沒有額外的多執行續或處理，程式碼可以在 [src](./src) 找到
 
 # Result
-測試軟體是 apache brench，以下是測試結果（ 1000000 / 100 ），兩個伺服器同時運行，但是分別進行測試
+測試軟體是 apache bench，以下是測試結果（ 1000000 / 100 ），兩個伺服器同時運行，但是分別進行測試
 CPU: 8 cores
 MEM: 16G
 
