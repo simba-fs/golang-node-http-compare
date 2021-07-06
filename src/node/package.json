@@ -1,0 +1,27 @@
+{
+	"name": "node-http-server",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.ts",
+	"scripts": {
+		"start": "ts-node index.ts",
+		"dev": "nodemon index.ts",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "simba-fs",
+	"license": "MIT",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"express": "^4.17.1",
+		"morgan": "^1.10.0"
+	},
+	"devDependencies": {
+		"@types/body-parser": "^1.19.0",
+		"@types/express": "^4.17.12",
+		"@types/morgan": "^1.9.2",
+		"@types/node": "^16.0.0",
+		"nodemon": "^2.0.9",
+		"ts-node": "^10.0.0",
+		"typescript": "^4.3.5"
+	}
+}
